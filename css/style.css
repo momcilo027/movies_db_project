@@ -1,0 +1,31 @@
+.tbl{
+  width: 100%;
+  font-size: 15px;
+  color: white;
+  border-collapse: collapse;
+  font-weight: bold;
+  overflow-y: auto;
+  height: 100px;
+}
+.tbl thead th{
+  font-size: 20px;
+  color: white;
+  background: black;
+  position: sticky;
+  top: 0;
+}
+.tbl td{
+  padding: 6px;
+}
+.tbl tbody tr:hover{
+  padding: 6px;
+  color: black;
+  background: white;
+  font-weight: bold;
+}
+.tbl a{
+  color: black;
+}
+.tbl a:hover{
+  color: #dc3545;
+}
